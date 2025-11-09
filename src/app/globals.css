@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .primary {
+    color: #00befa;
+  }
+  .secondary {
+    color: #88e789;
+  }
+  .text-primary {
+    color: #00befa;
+  }
+  .hover\:text-primary:hover {
+    color: #00befa;
+  }
+  .text-secondary {
+    color: #88e789;
+  }
+  .hover\:text-secondary:hover {
+    color: #88e789;
+  }
+  .bg-primary {
+    background-color: #00befa;
+  }
+  .hover\:bg-primary:hover {
+    background-color: #00befa;
+  }
+  .bg-secondary {
+    background-color: #88e789;
+  }
+  .hover\:bg-secondary:hover {
+    background-color: #88e789;
+  }
+
+  /* Line clamp utilities */
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+}
