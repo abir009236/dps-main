@@ -7,6 +7,7 @@ import ProductCard from "@/components/ProductCard/ProductCard";
 import GridLayout from "@/components/GridLayout/GridLayout";
 import SortDropdown from "@/components/SortDropdown/SortDropdown";
 import { useQuery } from "@tanstack/react-query";
+import Link from "next/link";
 
 export default function Shop() {
   const [gridLayout, setGridLayout] = useState("grid-3");

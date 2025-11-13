@@ -2,6 +2,7 @@ import { Urbanist } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
+import MobileBottomNav from "@/components/MobileBottomNav/MobileBottomNav";
 import { Toaster } from "react-hot-toast";
 import { authOptions } from "./api/auth/[...nextauth]/route";
 import NextAuthProvider from "@/provider/NextAuthProvider";
@@ -31,6 +32,7 @@ export default async function RootLayout({ children }) {
           <Main>{children}</Main>
           <Toaster />
           <Footer />
+          <MobileBottomNav />
         </NextAuthProvider>
       </body>
     </html>
