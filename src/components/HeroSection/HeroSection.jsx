@@ -46,7 +46,7 @@ export default function HeroSection() {
             </div>
 
             {/* Stats */}
-            <div className="grid grid-cols-3 gap-6 pt-8 border-t border-gray-200">
+            <div className="grid grid-cols-3 gap-6 pt-8">
               <div className="text-center">
                 <div className="text-2xl sm:text-3xl font-bold text-blue-600">
                   500+

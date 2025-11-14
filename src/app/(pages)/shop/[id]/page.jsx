@@ -120,13 +120,15 @@ export default function ProductDetails() {
   return (
     <div className="my-10">
       <div className="flex flex-col lg:flex-row gap-5 lg:gap-10 ">
-        <Image
-          src={product?.image}
-          alt={product?.title}
-          width={1000}
-          height={1000}
-          className="lg:w-1/3 h-[450px] object-cover rounded-lg"
-        />
+        <div className="  lg:w-[500px] h-[450px] mx-auto lg:mx-0 flex-shrink-0">
+          <Image
+            src={product?.image}
+            alt={product?.title}
+            width={1000}
+            height={1000}
+            className="w-full h-full object-cover rounded-lg"
+          />
+        </div>
         <div className="space-y-3  w-full lg:w-2/3">
           <h1 className="font-semibold text-lg text-black flex items-center gap-1">
             <Link

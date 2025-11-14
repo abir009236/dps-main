@@ -14,7 +14,7 @@ export default function Main({ children }) {
         className={` ${
           pathName.includes("admin")
             ? ""
-            : "flex-grow container mx-auto px-4 w-full"
+            : "flex-grow container mx-auto px-4 w-full pb-16 md:pb-0"
         }`}
       >
         {children}
